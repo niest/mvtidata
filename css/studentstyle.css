@@ -7,12 +7,12 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color:#CCC;
+      background-color:#D7D7D7;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      padding: 10px;
+     
 	    font-family: Arial, sans-serif;
     display: flex;
 
@@ -23,7 +23,7 @@
  
   height: 100vh;
   justify-content: flex-start;
-  padding: 20px;
+ 
     }
 	
 	header {
@@ -31,7 +31,7 @@
   mardgin-bottom: 80px;
   background-color:#339FF0;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   padding:20px;
 }
 .top{font-size:20px;
@@ -49,7 +49,7 @@ header h1 {
     /* Container to center the rows */
     .container {
       width: 100%;
-      max-width: 400px;
+      max-width: 500px;
       background-color:#FFF;
       border-radius: 15px;
       overflow: hidden;
