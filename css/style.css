@@ -16,7 +16,7 @@ body {
   background-color:#CCC;
   height: 100vh;
   justify-content: flex-start;
-  padding: 20px;
+  paddfing: 20px;
 }
 
 header {
@@ -24,7 +24,7 @@ header {
   mardgin-bottom: 20px;
   background-color:#339FF0;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   padding:20px;
 }
 .top{font-size:20px;
