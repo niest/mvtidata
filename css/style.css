@@ -1,17 +1,19 @@
-/* Reset some default styles */
+@charset "utf-8";
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Basic page styling */
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
+    font-family: Arial, sans-serif;
+    display: flex;
+
+     min-height: 100vh;
+
   flex-direction: column;
   align-items: center;
-  background-color: #f4f4f4;
+  background-color:#CCC;
   height: 100vh;
   justify-content: flex-start;
   padding: 20px;
@@ -19,44 +21,68 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 20px;
+  mardgin-bottom: 20px;
+  background-color:#339FF0;
+  width: 100%;
+  max-width: 400px;
+  padding:20px;
 }
+.top{font-size:20px;
+color:#FFF;
+margin-left:40px;
+text-adlign:left;
+float:left;}
+.topheader {color:#FFF;
+margin-left:40px;
+text-adlign:left;
+float:left;}
 
 header h1 {
   font-size: 28px;
   color: #333;
 }
-
-/* Container for the circles */
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 20px;
-  width: 100%;
-  max-width: 400px;
-  justify-items: center;
+.app-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+	background-color:#FFF;
 }
 
-/* Circle styling */
-.circle {
-  width: 80px;
-  height: 80px;
-  background-color: #3498db;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 10px;
+.app-item {
+    text-align: center;
 }
 
-/* Make the text inside the circles responsive */
-.circle p {
-  margin: 0;
-  font-size: 12px;
-  word-wrap: break-word;
+.circle-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+	border:#000;
+	background-color:#06C;
 }
+
+.circle-img {
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+	margin-top:20px;
+}
+
+.name-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.name-link:hover {
+    text-decoration: none;
+}
+/* CSS Document */
+
