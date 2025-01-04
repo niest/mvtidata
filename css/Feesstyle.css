@@ -1,4 +1,5 @@
 @charset "utf-8";
+/* styles.css */
 * {
       margin: 0;
       padding: 0;
@@ -28,7 +29,7 @@
 	
 	header {
   text-align: center;
-  mardgin-bottom: 80px;
+  mardgin-bottom: 150px;
   background-color:#339FF0;
   width: 100%;
   max-width: 500px;
@@ -45,50 +46,42 @@ header h1 {
   font-size: 28px;
   color: #333;
 }
-.back{float:left;
-	color:#FFF;
-	}
 
     /* Container to center the rows */
     .container {
       width: 100%;
       max-width: 500px;
-      background-color:#FFF;
+     
       border-radius: 15px;
       overflow: hidden;
       box-shadow: 0 5px 8px rgba(0, 12, 0, 0.1);
     }
+.card {
+  background-color: white;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  
+}
 
-    /* Row Styling */
-    .row {
-      display: flex;
-      align-items: center;
-      padding: 25px;
-      border-bottom: 15px solid #ddd;
-    }
+.card img {
+  width: 50px;
+  height: 50px;
 
-    .row:last-child {
-      border-bottom: none;
-    }
+}
 
-    .icon {
-      font-size: 24px;
-      margin-right: 10px;
-      
-	  color:#0E6DB4;
-    }
-
-    .text {
-      font-size: 16px;
-      color: #0E6DB4;
-    }
-
-    /* Hover effect */
-    .rfow:hover {
-      background-color: #f1f1f1;
-    }
-	
-	
-
+.card h2 {
+  color: #007bff;
+  font-size: 18px;
+  margin: 0;
+}
+	.back{float:left;
+	color:#FFF;
+	}
 /* CSS Document */
 

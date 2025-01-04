@@ -13,10 +13,10 @@ body {
 
   flex-direction: column;
   align-items: center;
-  background-color:#CCC;
+  background-color:#D7D7D7;
   height: 100vh;
   justify-content: flex-start;
-  paddfing: 20px;
+
 }
 
 header {
@@ -41,6 +41,7 @@ header h1 {
   font-size: 28px;
   color: #333;
 }
+
 .app-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -49,7 +50,8 @@ header h1 {
     width: 90%;
     max-width: 400px;
     margin: 0 auto;
-	background-color:#CCC;
+	background-color:#D7D7D7;
+	
 }
 
 .app-item {
